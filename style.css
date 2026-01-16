@@ -1,0 +1,128 @@
+ * {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ div {
+    display: block;
+    unicode-range: isolate;
+ }
+
+.HEAD {
+     background-color: white;
+     box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 1% 5%;
+}
+
+
+img {
+    width: 100%;
+}
+
+.LOGO {
+    font-size: xx-large;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+
+.tengah {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    padding: 1%;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.kiri {
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    height: 100%;
+}
+
+.Isigambar {
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    height: auto;
+    background-color: #FFF3E3;
+    padding: 5%;
+    border-radius: 2%;
+}
+
+.text1 {
+    font-weight: bold;
+}
+
+.discover {
+    color: #B88E2F;
+    margin: 0;
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+
+.button {
+    color: white;
+    text-decoration: none;
+}
+
+#buyNow {
+    padding: 3% 5%;
+    width: 30%;
+    font-weight: bold;
+    text-align: center;
+    background-color: #B88E2F;
+}
+
+.Browse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.Range {
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+.Lorem {
+    margin: 0;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.imgbrowsecard {
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    width: 100%;
+}
+
+.imgbrowse {
+    width: 25%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    gap: 20px;
+}
+
+.imagebrowse {
+    border-radius: 5%;
+}
+
+
