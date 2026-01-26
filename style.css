@@ -543,3 +543,31 @@ img {
     border-radius: 15%;
    
 }
+
+.labellogo {
+    display: flex;
+    background-color: #FAF3EA;
+    justify-content: space-evenly;
+    align-items:center ;
+    padding: 1px 1px 1px;
+    position: relative;
+    top: 7px;
+}
+
+.gambarlabel {
+    display: flex;
+    align-items: center;
+}
+
+.gambarlabel img {
+     width: 3rem;
+     margin: 1rem;
+}
+
+.labeljudul div{
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
