@@ -2,10 +2,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
 
- div {
-    display: block;
-    unicode-range: isolate;
- }
+ 
 
 .HEAD {
      background-color: white;
@@ -92,6 +89,14 @@ a{
     margin: 5% 0;
 }
 
+.Browse2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px
+}
+
 .Range {
     margin: 0;
     font-weight: bold;
@@ -113,16 +118,428 @@ a{
 
 .imgbrowse {
     width: 25%;
-    margin: 0 2%;
+    margin: 2%;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-weight: bold;
-    gap: 20px;
 }
 
-.imagebrowse {
+.imgebrowse {
     border-radius: 5%;
 }
 
 
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.product2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+   
+.card {
+    width: 20%;
+    position: relative;
+    background-color: #F4F5F7;
+}
+
+.diskon {
+    background-color: #E97171;
+    color: white;
+    width: 20%;
+    padding: 6% 0;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 50%;
+}
+
+.Namaproduct {
+    font-weight: bold;
+    margin: 5%;
+}
+
+.textsylist {
+    color: #666666;
+    margin: 5%;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5%
+}
+
+.pricediskon {
+    font-size: large;
+    font-weight: bold;
+}
+
+.priceNormal {
+    color: #B0B0B0;
+    text-decoration: line-through;
+    font-size: small;
+}
+
+.newicon {
+    background-color: #2EC1AC;
+    color: white;
+    width: 20%;
+    padding: 6% 0;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 50%
+}
+
+.showmore {
+    color: #B88E2F;
+    border: solid 1px #B88E2F ;
+    padding: 0.5rem 3rem;
+    display: flex;
+    position: relative;
+    left: 45rem;
+    width: 5rem;
+    
+}
+
+#showmore {
+    color: #B88E2F;
+   
+}
+
+.button {
+    color: #ffffff;
+    text-align: center;
+    border: solid 1px ;
+    font-weight: bold;
+}
+
+#eksplornow {
+    background-color: #B88E2F;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+}
+
+.inspiration {
+    background-color: #FCF8F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+    padding: 2rem;
+}
+
+.inspirationtext {
+    width: 25rem;
+}
+
+.inspirationjudul {
+    font-weight: bold;
+}
+
+.deskripsiourdesain {
+    color: #616161;
+}
+
+.imginspiration1 {
+    position: relative;
+    width: 25rem;
+}
+
+.room2 {
+    display: flex;
+    align-items: end;
+    width: max-content;
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+}
+
+.roomnama {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    width: 8.5rem;
+}
+
+.nama {
+    color: #616161;
+    margin: 0;
+}
+
+.namaplace {
+    font-size: x-large;
+    font-weight: bold;
+    margin: 0;
+}
+
+.roomarrow {
+    background-color: #B88E2F;
+    display: flex;
+    width: 2rem;
+}
+
+.imginspiration2 {
+    display: flex;
+    flex-direction: column;
+    width: 25rem
+}
+
+.slide1 {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    align-items: center;
+}
+
+.slideinspiration {
+    background-color: #D8D8D8;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+}
+
+.slide2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    border: solid 2px #B88E2F;
+    
+}
+
+.slide2 div {
+    background-color: #B88E2F;
+}
+
+.furniro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5% 0;
+}
+
+.sharyoursetup {
+    color: #616161;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px
+}
+
+
+.Furnirotile {
+    font-weight: bold  ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px
+}
+
+.furnirogambar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0rem;
+    width: 100%;
+}
+
+
+footer {
+    margin: 3%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+}
+
+#footerid {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.footerfurniro {
+    font-weight: bold;
+}
+
+
+.abuabutext {
+    color: #9F9F9F;
+}
+
+.footergrup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form {
+    display: flex;
+    gap: 1px;
+}
+
+.form input {
+    border: none;
+    padding: 0;
+}
+
+.garis {
+    padding: 0.05rem;
+    background-color: black;
+}
+
+img.Re26 {
+    object-fit: cover;
+    width: 5rem;
+    height: 30rem;
+    margin: 0 0 3rem;
+}
+
+img {
+    width: 100%;
+}
+
+.slide-show{
+    position: absolute;
+    right: 5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.356) 2px 2px 2px;
+}
+
+.shopHero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopHero img {
+    height: 20rem;
+    object-fit: cover;;
+    filter: blur(2px);
+}
+
+.shopLabel {
+    position: absolute;
+    justify-items: center;
+}
+
+.shopFilter {
+    background-color: #F9F1E7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopFilterLeft {
+    display: flex;
+}
+
+.filterIcons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.filterIcons img {
+    width: 1rem;
+    height: 1rem;
+}
+
+
+.shopproductkanan {
+    display: flex;
+    margin: 2% 5%;
+    gap: 1rem;
+}
+
+#enambelas {
+    color: #898989;
+    background-color: #FFFFFF;
+    padding: 1rem 4rem 1rem 1rem
+}
+
+.product-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #3331314c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 10;    
+}
+
+.product-action{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.add-to-cart{
+    text-decoration: none;
+    background-color: white;
+    color: #B88E2F;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.card:hover .product-overlay {
+    opacity: 1;
+}
+
+.satuduatiga {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide123 {
+    display: flex;
+    gap: 1rem;
+
+}
+
+.tombol123 {
+    background-color: #B88E2F;
+    padding: 1rem;
+    border-radius: 15%;
+    color: white;
+}
+
+.tombol12 {
+    background-color: #F9F1E7;
+    padding: 1rem;
+    border-radius: 15%;
+   
+}
